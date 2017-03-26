@@ -1,0 +1,40 @@
+{
+  "name": "line-bot-api",
+  "version": "0.0.3",
+  "description": "SDK of the LINE Messaging API",
+  "main": "src/line-bot.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint lib test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taish/line-bot-sdk-node.git"
+  },
+  "author": "taish <kbystis+git@gmail.com>",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "The MIT License",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/taish/line-bot-sdk-node/issues"
+  },
+  "homepage": "https://github.com/taish/line-bot-sdk-node#readme",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "eslint": "^3.10.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-ava": "^4.0.0",
+    "eslint-plugin-promise": "^3.3.2",
+    "eslint-plugin-standard": "^2.0.1",
+    "jsdoc": "^3.4.3",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1"
+  }
+}
